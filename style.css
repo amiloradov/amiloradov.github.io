@@ -1,0 +1,138 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: antiquewhite;
+}
+
+span{
+	font-size: 24px;
+	color: #000;
+	transition: 0.9s;
+}
+
+img{
+	width: 200px;
+	border-radius: 35px;
+	margin: 10px 15px 0 0;
+}
+
+table {
+	margin-right: 200px;
+	float: right;
+	border-style: solid;
+}
+
+table tr td:first-child {
+	padding-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #1A6DBB;
+	transition: 0.3s;
+}
+
+::-moz-selection {
+	color: white; 
+	background: #1A6DBB;
+}
+
+::selection {
+	color: white; 
+	background: #1A6DBB;
+}
+
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.intro {
+	margin: 150px 0 90px 0;
+	text-align: center;
+	background-color: #FD9E6E;
+	border-style: solid;
+	padding: 15px 0 30px 0;
+}
+
+.intro span {
+	margin-bottom: 10px;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.intro span.highlight {
+	font-size: 35px;
+	color: white;
+}
+
+.intro span.highlight-red {
+	background-color: #EA5B23;
+	color: white;
+	transition: 0.3s;
+	border-bottom: solid;
+}
+
+.intro span.highlight-red:hover {
+	background-color: #FBBC9B;
+	transition: 0.3s;
+	color: #F7070B;
+}
+
+
+@media (max-width: 1010px) {
+	/*.intro {
+		margin: 50px 0px 50px 0;
+	}
+	*/
+	.intro span {
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+	
+@media (max-width: 900px) {
+	table {
+	margin-right: 150px;
+	}
+}
+	
+@media (max-width: 850px) {
+	table {
+	margin-right: 100px;
+	}
+}
+	
+@media (max-width: 750px) {
+	table {
+	margin-right: 50px;
+	}
+}
+	
+@media (max-width: 625px) {
+	table {
+	margin-right: 10px;
+	}
+}		
+
+@media (max-width: 570px) {
+	table {
+	margin-right: 50px;
+	}
+	img{
+		display: none;
+	}
+}
+
+@media (max-width: 570px) {
+	table {
+	margin-right: 0px;
+	}
+}
